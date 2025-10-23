@@ -6,7 +6,6 @@ const verifyJwt = require('./middleware/verifyJwt')
 const cors = require('cors')
 const corsOptions = require('./conf/corsOptions')
 const cookieParser = require('cookie-parser')
-const { verify } = require('crypto')
 const app = express()
 const PORT = process.env.PORT || 3500
 
